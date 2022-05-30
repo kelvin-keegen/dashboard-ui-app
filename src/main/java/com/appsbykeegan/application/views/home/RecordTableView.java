@@ -1,5 +1,6 @@
-package com.appsbykeegan.application.views.recordtable;
+package com.appsbykeegan.application.views.home;
 
+import com.appsbykeegan.application.views.home.HomeView;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Paragraph;
@@ -8,7 +9,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
 @PageTitle("Record Table")
-@Route(value = "record-table")
+@Route(value = "record-table",layout = HomeView.class)
 public class RecordTableView extends VerticalLayout {
 
     public RecordTableView() {
